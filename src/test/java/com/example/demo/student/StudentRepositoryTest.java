@@ -15,7 +15,7 @@ class StudentRepositoryTest {
     String email = "jamila@gmail.com";
 
     @AfterEach
-    void tearDown(){
+    void tearDown() {
         underTest.deleteAll();
     }
 
